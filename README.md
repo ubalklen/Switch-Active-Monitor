@@ -1,15 +1,12 @@
-# tf_posenet
+# Switch Active Monitor
 
-这个是tfjs-models-posenet的python版本。在2015 macbook pro低配版上能够跑到12帧。
+Proof of concept of automatic active monitor switching in a dual-monitor computer using a webcam. Position of user's nose and shoulders are tracked using [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet). Switching occurs when the nose gets closer to one of the shoulders.
 
-tf_posenet can estimate either a single pose or multiple poses in real time.
+Uses TensorFlow 1.15.3. Works only on Windows.
 
-## Run
+##Usage
+1. Install all the dependences.
+2. `python posenet.py`
 
-python3 main.py
-
-## Refer to the following website content and source code
-
-1.  https://github.com/tensorflow/tfjs-models/
-
-2.  https://github.com/infocom-tpo/PoseNet-CoreML
+<br><br><br>
+PoseNet Python porting by [zg9uagfv](https://github.com/zg9uagfv/tf_posenet).
