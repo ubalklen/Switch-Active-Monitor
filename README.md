@@ -4,7 +4,7 @@ Proof of concept of automatic active monitor switching in a dual-monitor compute
 
 Uses TensorFlow 1.15.3. Works only on Windows.
 
-##Usage
+## Usage
 1. Install all the dependences.
 2. `python posenet.py`
 
